@@ -21,4 +21,4 @@ public class AppDbContext:DbContext{ //DbContext representa o banco de dados
     protected override void OnModelCreating(ModelBuilder builder){
         
     }
-}
+}git

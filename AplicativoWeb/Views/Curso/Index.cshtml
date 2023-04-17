@@ -1,0 +1,11 @@
+@{
+
+  var Curso = ViewData["Curso"] as Curso;
+}
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header"> @Curso?.TituloInterno</div>
+  <div class="card-body">
+    <h5 class="card-title"> @Curso?.TituloMarketing </h5>
+    <p class="card-text">  @Curso?.Descricao </p>
+  </div>
+</div>
